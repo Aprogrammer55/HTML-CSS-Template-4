@@ -389,3 +389,69 @@ ul {
 }
 
 /* End Ticket Widget  */
+/* Start Latest News Widget  */
+.latest-news .news-row:not(:last-of-type) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 767px) {
+    .latest-news .news-row {
+        display: block;
+    }
+}
+
+.latest-news .news-row img {
+    width: 100px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.latest-news .info {
+    flex-grow: 1;
+}
+
+.latest-news .info h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .latest-news .news-row .label {
+        margin: 10px auto;
+        width: fit-content;
+    }
+}
+
+/* End Latest News Widget  */
+/* Start Tasks Widget */
+.tasks .task-row:not(:last-of-type) {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.tasks .done {
+    opacity: 0.3;
+}
+
+.tasks .info {
+    flex-grow: 1;
+}
+
+.tasks .done h3,
+.tasks .done p {
+    text-decoration: line-through;
+}
+
+.tasks .delete {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tasks .delete:hover {
+    color: var(--red-color);
+}
+
+/* End Tasks Widget */
