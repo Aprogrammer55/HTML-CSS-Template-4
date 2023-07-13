@@ -518,3 +518,27 @@ ul {
 }
 
 /* End Last Project Progress Widget */
+/* Start Reminders Widget */
+.reminders ul li .key {
+    width: 15px;
+    height: 15px;
+    min-width: 15px;
+}
+
+.reminders ul li>.blue {
+    border-left: 2px solid var(--blue-color);
+}
+
+.reminders ul li>.green {
+    border-left: 2px solid var(--green-color);
+}
+
+.reminders ul li>.orange {
+    border-left: 2px solid var(--orange-color);
+}
+
+.reminders ul li>.red {
+    border-left: 2px solid var(--red-color);
+}
+
+/* End Reminders Widget   */
