@@ -723,3 +723,16 @@ ul {
 }
 
 /* End Settings Box */
+/* Start General Info */
+.settings-page :disabled {
+    cursor: no-drop;
+    background-color: #f0f4f8;
+    color: #bbb;
+}
+
+.settings-page .email {
+    display: inline-flex;
+    width: calc(100% - 80px);
+}
+
+/* End General Info */
