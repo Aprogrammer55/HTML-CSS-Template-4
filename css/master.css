@@ -1031,6 +1031,15 @@ ul {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
 
+@media (max-width: 767px) {
+    .projects-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+}
+
 .projects-page .project .date {
     position: absolute;
     right: 10px;
@@ -1173,6 +1182,15 @@ ul {
 /* Start Friends page */
 .friends-page {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+@media (max-width: 767px) {
+    .friends-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
 }
 
 .friends-page .friend .contact {
